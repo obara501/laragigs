@@ -1,7 +1,7 @@
 <h1>{{$heading}}</h1>
 
 @if(count($listings)==0)
-   <p>Oops! No listings found.</p>
+   <p>Oops! There are no listings.</p>
 @endif
 
 @foreach ($listings as $listing)
